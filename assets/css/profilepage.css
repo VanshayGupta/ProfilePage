@@ -1,0 +1,205 @@
+/* selecting by tag name */
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: "Avenir";
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	font-weight: 300;
+	font-size: 18px;
+}
+h6{
+	display: inline;
+}
+hr{
+	margin: 10px 75px;
+}
+
+/* selecting by class name */
+.nav-link{
+	text-align: left;
+}
+.dropdown-item{
+	color: rgba(255, 255, 255, 0.5);
+}
+.social{
+	margin: 20px;
+	color: rgb(26, 140, 255);
+	-webkit-animation: fadein 2s;
+}
+.heading{
+	margin: 30px auto;
+	font-weight: bold;
+	color: rgb(26, 140, 255);
+	letter-spacing: 3px;
+}
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.card{
+		background-color: rgb(245, 245, 245);
+		margin: 20px 50px;
+		text-align: center;
+}
+.eduhead{
+	font-weight: 600;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+}
+.qi{
+	margin: 30px auto;
+	width: 80%;
+	list-style: none;
+	color: rgb(26, 140, 255);
+	font-weight: 800;
+}
+.list-group-item{
+	color: black;
+	font-weight: normal;
+	background: linear-gradient(to left, #b6fbff, #83a4d4); 
+}
+.break-text p {
+  word-wrap: break-word;
+}
+.form-control{
+	display: inline;
+	width: 350px;
+}
+.update{
+	margin: 0 auto 10px auto;
+	font-weight: normal;
+	background-color: rgb(230, 249, 255);
+	height: 31%;
+	border-radius: 50px;
+}
+.time{
+	font-size: 15px;
+	color: gray;
+}
+.contactHeading{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.compulsory{
+	color: red;
+}
+.formValid{
+	color: red;
+	font-size: 15px;
+}
+
+/* selecting by id name */
+#header{
+	height: 700px;
+	background-color: rgb(26, 26, 26);
+	text-transform: uppercase;
+	padding-bottom: 50px;
+	color: white;
+}
+#picture{
+	height: 300px;
+	border-radius: 50%;
+	border: 3px solid rgb(26, 140, 255); 
+	margin: 30px;
+	-webkit-animation: fadein 2s;
+}
+#profileName{
+	margin: 30px;
+	-webkit-animation: fadein 2s;
+}
+#bio{
+	margin: 40px;
+	-webkit-animation: fadein 2s;
+}
+#follow{
+	-webkit-animation: fadein 2s;
+}
+#check{
+	display: none;
+}
+#write{
+	width: 400px;
+	height: 70px;
+	margin: 20px 0;
+}
+#comments{
+	list-style: none;
+	margin-top: 10px;
+}
+#submit{
+	margin-bottom: 10px;
+}
+#contactBox{
+	margin-bottom: 50px;
+}
+#fitSize{
+	width: 50%;
+	margin: auto;
+}
+#contact{
+	margin-top: 80px;
+}
+#email{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#number{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#website:hover {
+	color: blue;
+}
+#addressPicture{
+	width:250px;
+	height: 200px;
+	display: inline;
+}
+#editName{
+	margin-top: 20px;
+}
+#code{
+	background-color: rgb(220, 220, 220);
+	padding-top: 8px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#editAddress{
+	height: 70px;
+	width: 400px;
+}
+#contactName{
+	margin-top: 10px;
+}
+#editBio{
+	height: 40px;
+	width: 350px;
+}
+#footer{
+	background-color: rgb(26, 26, 26);
+	height: 200px;
+	margin-top: 50px;
+}
+#copyright{
+	color: white;
+	text-align: left;
+	margin-left: 20px;
+}
+#topScroll{
+	color: white;
+	text-align: right;
+	padding-top: 30px;
+	margin-right: 20px;
+}
+
+/* animation details */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

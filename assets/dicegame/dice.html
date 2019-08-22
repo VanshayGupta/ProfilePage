@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!--Rules-
+	1. The first player clicks on roll and the score is added to the current tally.
+	2. The player can choose to roll again or hold. 
+	3. On pressing hold, the current score is added to the total score, the current score is reset to 0 and the turn transfers to the other player.
+	4. If the player rolls a 1 or 4, the total and current scores are reset to 0, and the turn transfers to the other player. 
+	5. This is repeated until one player reaches the winning total and clicks on hold.
+	6. The reset button can be used to restart the game.
+	7. The betting amount of each player is either added or subtracted from their total winnings on the basis of the outcome of the game.
+--> 
+<head>
+	<title>The Dice Game</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dice.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+<body>
+	<iframe src="C:\Users\g_abh\Downloads\sevennationarmy.mp3" allow="autoplay" loop="true" id="audio" style="display: none"></iframe>
+	<audio autoplay loop>
+    <source src="#">
+    </audio>
+	<div id="container">
+		<h1>The dice game <i class="fas fa-dice"></i></h1>
+		<p class="players"><span id="p1"></span>- <span id="p1Bet">0</span>total winnings <span id="p2"></span>- <span id="p2Bet">0</span>	</p>
+		<p id="score"><span id="p1Total">0</span> - <span id="p2Total">0</span></p>
+		<img src="#" id="gif">
+		<p id="choice"></p>
+		<button id="hold"><i class="fas fa-pause"></i> HOLD</button>
+		<button id="roll"><i class="fas fa-dice-d6"></i> ROLL</button>
+		<button id="reset"><i class="fas fa-redo"></i> RESET</button>
+		<p class="players"><i class="fas fa-circle" id="turn1"></i><span id="p1Turn"></span>- <span id="p1Current">0</span> current turn <i class="fas fa-circle" id="turn2"></i><span id="p2Turn"></span>- <span id="p2Current">0</span></p>
+	</div>
+    <script type="text/javascript" src="dice.js"></script>
+</body>
+</html>

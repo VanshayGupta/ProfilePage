@@ -1,0 +1,74 @@
+body{
+	background: url(https://wallpaperstock.net/apple-pro-wallpapers_22012_2560x1600.jpg);
+}
+#calculator{
+	text-align: center;
+	font-family: "Helvetica";
+	margin: 30px auto;
+	width: 24%;
+	background-color: rgba(0, 0, 0);
+	color: white;
+	height: 600px;
+	border-radius: 10%;
+}
+button{
+	padding: 21px 25px;
+	margin: 3px;
+	background: #595959;
+	border-radius: 50%;
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	border: none;
+}
+#header{
+	padding-bottom: 10px;
+	height: 175px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.operator{
+	background-color: #ffa31a;
+	outline: none;
+}
+#n0{
+	width: 130px;
+	border-radius: 42.5%;
+}
+.all-clear{
+	background-color: #b3b3b3;
+	color: black;
+	outline: none;
+	padding: 16px;
+}
+#reverse{
+    background-color: #b3b3b3;
+	color: black;
+	padding: 16px;	
+}
+#modulus{
+	background-color: #b3b3b3;
+	color: black;
+	padding: 18px 20px;
+}
+.equal{
+	background-color: #ffa31a;
+	outline: none;
+}
+#display{
+	font-weight: 100;
+	font-size: 70px;
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+}
+.decimal{
+	padding: 20px 30px;
+	outline: none;
+}
+#minus{
+	padding: 20px 30px;
+}
+.digit{
+	outline: none;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+<body>
+	<div id="calculator">
+		<div id="header">
+			<h1 id="display"></h1>
+		</div>
+	 <button type="button" class="all-clear" value="all-clear">AC</button>
+	 <button type="button" class="operator" id="reverse" value="*(-1)">+/-</button>
+	 <button type="button" class="operator" id="modulus" value="%">%</button> 
+	 <button type="button" class="operator" id="divide" value="/">&divide;</button> <br>
+
+    <button type="button" class="digit" id="n7" value="7">7</button>
+    <button type="button" class="digit" id="n8" value="8">8</button>
+    <button type="button" class="digit" id="n9" value="9">9</button>
+    <button type="button" class="operator" id="multiply" value="*">&times;</button> <br>
+
+    <button type="button" class="digit" id="n4" value="4">4</button>
+    <button type="button" class="digit" id="n5" value="5">5</button>
+    <button type="button" class="digit" id="n6" value="6">6</button>
+    <button type="button" class="operator" id="minus" value="-">-</button> <br>
+
+    <button type="button" class="digit" id="n1" value="1">1</button>
+    <button type="button" class="digit" id="n2" value="2">2</button>
+    <button type="button" class="digit" id="n3" value="3">3</button>
+    <button type="button" class="operator" id="plus" value="+">+</button> <br>
+
+    <button type="button" class="digit" id="n0" value="0">0</button>
+    <button type="button" class="decimal" value=".">.</button>    
+    <button type="button" class="equal" value="=">=</button>
+   
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
+
+
+<!--
+for(var i=0;i<digit.length;i++)
+{
+digit[i].addEventListener("click",function(){
+	var digitInput=digit[i].value;
+	displayScreen(digitInput);
+	calculation(digitInput);
+});
+}
+//accept operator input
+for(var i=0;i<operator.length;i++)
+{
+	operator[i].addEventListener("click",function(){
+		displayScreen(operator[i].value);
+		calculation(operator[i].value);
+	});
+}
+-->
